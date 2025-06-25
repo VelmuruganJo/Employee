@@ -1,0 +1,77 @@
+/* Background styling */
+.background-wrapper {
+  background-image: url('./img/Login.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login container styling */
+.login-container {
+  /* background-color: rgba(0, 0, 0, 0.7); Semi-transparent dark box */
+  padding: 30px;
+  border:red solid 2px;
+  border-radius: 10px;
+  color: #000000;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-left: 550px;
+}
+input{
+  color: #000000;            /* Text color */
+  background-color: #b8acac; /* Background of input */
+}
+/* Form layout */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-group input {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+/* Checkbox styling */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  justify-content: flex-start;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00aaff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0077cc;
+}
